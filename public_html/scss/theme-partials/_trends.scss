@@ -1,0 +1,36 @@
+
+.trends{
+    padding: 75px 0 55px;
+    .trends-item{
+        a{
+            overflow: hidden;
+            img{
+                transition: all 0.5s linear;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    .trends-content{
+        margin-top: -80px;
+        background-color: #FFF !important;
+        padding: 15px;
+        width: 90%;
+        height: 160px;
+        overflow: hidden;
+        p{
+            font-family: $bodoni;
+            font-style: italic;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 1px;
+        }
+        h5{
+            font-family: $base-font;
+            font-weight: $font-weight-normal;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+    }
+}

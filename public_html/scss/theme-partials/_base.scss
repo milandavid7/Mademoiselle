@@ -14,4 +14,18 @@ a{
     font-size: 1.4rem;
     line-height: 1.7rem;
 }
-
+.section-title{
+    font-family: 'Bodoni';
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+}
+.section-title:after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 74px;
+    background-color: $primary;
+    margin: 25px 0 45px;
+    
+}

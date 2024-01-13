@@ -1,0 +1,23 @@
+
+.lead-section{
+    padding: 218px 0 268px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    .lead-title{
+        font-family: 'Bodoni';
+        font-size: 4.3rem;
+        line-height: 6rem;
+        letter-spacing: 0.7rem;
+    }
+}
+@media(min-width:576px){
+    .lead-section{
+        .lead-title{
+            font-family: 'Bodoni';
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 2rem;
+        }
+    }
+}
