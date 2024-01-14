@@ -12609,9 +12609,16 @@ header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9;
 }
 
+header .navbar-nav a.active {
+  border-bottom: 1px solid #ECD9D9;
+}
+
 @media (min-width: 992px) {
   header .navbar-nav .nav-item {
     margin-left: 30px;
+  }
+  header .navbar-nav a {
+    padding: 10px;
   }
 }
 
@@ -12701,6 +12708,11 @@ header .navbar-nav a:hover {
 .services article a {
   border: 1px solid #1E1E1E;
   letter-spacing: 0.5px;
+  background-color: transparent;
+}
+
+.services article a:hover {
+  background-color: #6b6b6b;
 }
 
 .services article.even {
@@ -12810,6 +12822,53 @@ footer .copyright {
   font-size: 1.2rem;
   line-height: 4.1rem;
   letter-spacing: -0.17px;
+}
+
+.service-single {
+  padding: 50px 0;
+}
+
+.service-single .service-single-content h3, .service-single .service-single-content .h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+.service-single .service-single-content .service-single-text {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+@media (min-width: 768px) {
+  .service-single .service-single-content h3, .service-single .service-single-content .h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .service-single .service-single-content .service-single-text {
+    height: 26rem;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-single {
+    padding: 170px 0;
+  }
+  .service-single .service-single-content h3, .service-single .service-single-content .h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-single .service-single-content h3, .service-single .service-single-content .h3 {
+    font-size: 4.4rem;
+    line-height: 5rem;
+  }
+  .service-single .service-single-content .service-single-text {
+    height: inherit;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

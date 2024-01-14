@@ -26,6 +26,9 @@ header{
                 border-bottom: 1px solid $primary;
             }
         }
+        a.active{
+            border-bottom: 1px solid $primary;
+        }
     }
 }
 
@@ -34,6 +37,9 @@ header{
         .navbar-nav{
             .nav-item{
                 margin-left: 30px;
+            }
+            a{
+                padding: 10px;
             }
         }
     }
