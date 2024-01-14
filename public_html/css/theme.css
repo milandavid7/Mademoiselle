@@ -12871,4 +12871,88 @@ footer .copyright {
   }
 }
 
+.about {
+  padding: 50px 0;
+}
+
+.about .about-content .about-content-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5rem;
+}
+
+.about .about-content .about-content-text {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.about .about-content .about-content-img img {
+  min-width: 100%;
+}
+
+.about .form-group .form-control {
+  height: 70px;
+  padding-left: 20px;
+  border: 1px solid #1E1E1E;
+}
+
+.about .form-group span {
+  right: 20px;
+  bottom: 20px;
+  line-height: 2.5rem;
+  opacity: 0.5;
+}
+
+.about .trends-item a {
+  overflow: hidden;
+}
+
+.about .trends-item a img {
+  transition: all 0.5s linear;
+}
+
+.about .trends-item a img:hover {
+  transform: scale(1.2);
+}
+
+.about .trends-content {
+  margin-top: -80px;
+  background-color: #FFF !important;
+  padding: 15px;
+  width: 90%;
+  height: 160px;
+  overflow: hidden;
+}
+
+.about .trends-content p {
+  font-family: "Bodoni";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.about .trends-content h5, .about .trends-content .h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+@media (min-width: 992px) {
+  .about {
+    padding: 90px 0 143px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about .about-content .about-content-text:first-of-type {
+    margin-bottom: 80px !important;
+  }
+  .about .about-content .about-content-img {
+    margin-bottom: 80px !important;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
