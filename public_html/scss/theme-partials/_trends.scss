@@ -34,3 +34,18 @@
         }
     }
 }
+
+.blog{
+    .page-item{
+        .page-link{
+            color: $body-color;
+            border: none;
+            font-family: 'Bodoni';
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            span{
+                opacity: 0.5;
+            }
+        }
+    }
+}

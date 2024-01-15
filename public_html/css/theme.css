@@ -12691,6 +12691,18 @@ header .navbar-nav a.active {
   line-height: 2.4rem;
 }
 
+.blog .page-item .page-link {
+  color: #1E1E1E;
+  border: none;
+  font-family: 'Bodoni';
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.blog .page-item .page-link span {
+  opacity: 0.5;
+}
+
 .services article {
   background-color: #F5F5F5;
   padding: 143px 20px 80px;
