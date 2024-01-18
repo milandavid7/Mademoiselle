@@ -10,6 +10,13 @@
         line-height: 6rem;
         letter-spacing: 0.7rem;
     }
+    a{
+        border: 1px solid #FFF;
+        font-family: $base-font;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+    }
 }
 @media(min-width:576px){
     .lead-section{

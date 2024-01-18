@@ -12642,6 +12642,14 @@ header .navbar-nav a.active {
   letter-spacing: 0.7rem;
 }
 
+.lead-section a {
+  border: 1px solid #FFF;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+}
+
 @media (min-width: 576px) {
   .lead-section .lead-title {
     font-family: 'Bodoni';
